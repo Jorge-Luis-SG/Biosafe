@@ -1,0 +1,629 @@
+
+.container-body {
+    width: 60%;
+    margin: auto;
+  }
+.separator1{
+    height: 50px;
+}
+.separator2{
+    height: 30px;
+}
+.separator3{
+    height: 60px;
+}
+.separator4{
+    height: 80px;
+}
+.services-info-body {
+    display: grid;
+    grid-template-columns: 340px 380px 350px;
+}
+.form-whatsapp{
+  text-align: center;
+}
+.servicio-body , .franquicia-body, .info-img{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.servicio-body{
+    background-color: #009ee1;
+    padding: 40px 25px 40px 45px;
+}
+.franquicia-body{
+    background-color: #a4cd39;
+    padding: 40px 25px 40px 45px;
+}
+.servicio-body h2, .franquicia-body h2 {
+    font-size: 40px;
+    color:#fff;
+}
+.servicio-body h4 ,.franquicia-body h4 {
+  font-size: 21px;
+  font-weight: 400;
+  color:#fff;
+}
+.servicio-body p ,.franquicia-body p {
+    font-size: 18px;
+    color:#fff;
+    margin-top:10px;
+  }
+  .servicio-body button ,.franquicia-body button {
+    font-size: 25px;
+    width: 90%;
+    font-weight: 600;
+    color: #fff;
+    background: #013c5d;
+    height: 50px;
+    border-radius: 25px;
+    border-style: none;
+    padding: 10px 0;
+  }
+  .info-img {
+    margin-top: 60px;
+}
+.info-img img{
+    position: absolute;
+    width: 420px;
+    z-index: 300;
+}
+.title-responsabilidad {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 580px;
+  }
+  .title-responsabilidad-2 {
+    display: grid;
+    grid-template-columns: 300px;
+  }
+
+.title-responsabilidad-h2-1{
+    color: #a4cd39;
+    font-size: 60px;
+    font-weight: 800;
+}
+.title-responsabilidad-h2-2{
+    color: #009ee2;
+    font-size: 60px;
+    font-weight: bold;
+    grid-column: 2;
+    grid-row: 2;
+}
+.title-responsabilidad-h2-3{
+    color: #9fd9f7;
+    grid-column: 2/3;
+    grid-row: 3;
+    font-size: 50px;
+    font-weight: bold;
+}
+.nosotros-container {
+  margin-top: -35px;
+}
+.nosotros-body-title{
+    color: #2f69a6;
+    font-size: 40px;
+    font-weight: 400;
+}
+.nosotros-body-paragraph{
+    color: #6e6e6e;
+    font-size: 19px;
+    margin-top: 15px;
+}
+.nosotros-body-paragraph span{
+    font-weight: bold;
+    color: #666;
+}
+.body-container-services{
+    width: 80%;
+    margin: 0 0 0 auto;
+    display: flex;
+    position: relative;
+    z-index:50;
+}
+.body-container-services-1 img {
+    width: 480px;
+  }
+.body-container-services-2 {
+    width: 70%;
+    background-color: #f3f3f3;
+    color: #747474;
+  }
+.body-container-services-2-container {
+    padding-left: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.body-servicios-list-video ,.body-servicios-list-video2,.body-servicios-list-video3{
+    display: flex;
+    align-items: center;
+
+}
+.body-servicios-list-video li, .body-servicios-list-video2 li,.body-servicios-list-video3 li{
+ list-style: none;     
+}
+
+.body-servicios-title-video-h3{
+    color: #2f69a6;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.container-list-services-fast {
+    display: flex;
+    align-items: center;
+}
+.container-list-services-fast img{
+    width: 75px;
+    margin-right: 15px;
+}
+.galerias-servicios {
+    background: #00a6e4;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.galerias-servicios-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 40px;
+  }
+.logo-SAFTLAB-list {
+    margin-left: 35px;
+  }
+  .container-body-final {
+    background: #f1f1f1;
+    background-image: url(../img/fondo-body-index.png);
+    background-repeat: no-repeat;
+    background-position: right 10px;
+    background-size: 65vw 100vh;
+  }
+  .body-form-bottom {
+    margin-top: -10px;
+  }
+.body-form{
+      width: 80%;
+      margin: 0 0 0 auto;
+      display: grid;
+      grid-template-columns: 30% auto;
+}
+.contactanos-form{
+    color:  #2e6aa8;
+    font-size: 45px;
+    font-weight: 400;
+}
+.subtitle-form{
+    font-size: 21px;
+    color: #585B5B;;
+    font-weight: bold;
+}
+.formulario-form {
+  margin-top: 30px;
+}
+.monto-inversion{
+  display: flex;
+  align-items: flex-start;
+  margin-left: 5px;
+}
+.form1-div {
+    display: flex;
+    align-items: baseline;
+}
+.input-form {
+    margin-left: 15px;
+    height: 5px;
+    width: 200px;
+    margin-bottom: 15px;
+    color: #464646;
+    padding: 15px 15px;
+    font-size: 15px;
+  }
+  .input-form:focus, .input-form:active{
+    border: 1px solid red;
+    outline: none;
+  }
+
+.label-div {
+    width: 70px;
+    text-align: right;
+  }
+  .label-form{
+      color: #484848;
+  }
+.textarea-div-div {
+    display: flex;
+    margin-bottom: 30px;
+}
+#textarea {
+    margin-left: 15px;
+  }
+  #textarea {
+    width: 340px;
+    height: 90px;
+    resize: none;
+  }
+
+ 
+  .form-whatsapp img {
+    width: 480px;
+  }
+
+  .body-form-whatsapp img {
+    position: absolute;
+  }
+
+
+.body-form-container{
+    position: relative;
+    z-index: 2;
+    width: 500px;
+}
+.aviso-form {
+    display: flex;
+    align-items: baseline;
+    margin-left: 50px;
+  }
+  #check{
+      outline: none;
+  }
+  .aviso-form p {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #787878;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+
+#whats-app{
+    position: relative;
+    z-index: 52;
+    margin-left: 60px;
+}
+
+.formulario-form button {
+    background: #2e69a5;
+    color: white;
+    height: 55px;
+    width: 270px;
+    margin-left: 70px;
+    font-size: 17px;
+  }
+  .monto-inversion{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5px;
+}
+
+  #img-aviso-form-bubble {
+    position: absolute;
+    margin-top: -150px;
+    left: 14vw;
+  }
+
+    .body-servicios-title-video-p {
+      width: 400px;
+      padding-right: 20px;
+    }
+
+
+
+
+  @media screen and (max-width: 1465px){
+    .header-mid {
+      width: 72%;
+    }
+    .container-body {
+      width: 70%;
+  }
+  .services-info-body {
+    display: grid;
+    grid-template-columns: 400px 330px;
+    grid-template-rows: auto 300px;
+    justify-content: center;
+  }
+  .info-img {
+    margin-top: 60px;
+    width: 100%;
+    grid-row: 3;
+    grid-column: 1/3;
+    align-items: center;
+  }
+  .separator2{
+    height: 300px;
+  }
+  .title-responsabilidad {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .title-responsabilidad-h2-2 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .title-responsabilidad-h2-3 {
+    grid-column: 3/3;
+    grid-row: 3;
+  }
+  .body-container-services {
+    width: 85%;
+  }
+  .body-form {
+    width: 85%;
+    margin: 0 0 0 auto;
+    display: grid;
+    grid-template-columns: 42% auto;
+  }
+  #img-aviso-form-bubble {
+    position: absolute;
+    margin-top: -150px;
+    left: 9vw;
+  }
+  #whats-app {
+    position: relative;
+    z-index: 52;
+    margin-left: 60px;
+    padding-right: 40px;
+  }
+  .body-form {
+    width: 86%;
+}
+}
+
+
+@media screen and (max-width: 1024px){
+  .body-form-bottom {
+    margin-top: -20px;
+  }
+  .container-body-final {
+    background: #f1f1f1;
+    background-image: url(../img/fondo-body-index.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 82% 95%;
+  }
+  .formulario-form button {
+    margin-left: 0px;
+  
+  }
+  .services-info-body {
+    grid-template-columns: 100%;
+  grid-template-rows: 400px 400px 400px;
+  justify-items: center;
+  align-items: center;
+  }
+  .servicio-body {
+    grid-row: 2;
+  }
+  .info-img {
+    margin-top: -160px;
+    grid-row: 4;
+  }
+  .info-img img {
+    width: 380px;
+  }
+  .title-responsabilidad-2 {
+    display: grid;
+    grid-template-columns: 200px;
+  }
+  .title-responsabilidad-h2-1 {
+    font-size: 50px;
+  }
+  .title-responsabilidad-h2-2 {
+    font-size: 45px;
+  }
+  .title-responsabilidad-h2-3 {
+    font-size: 45px;
+  }
+  .textos-body {
+    margin-top: -90px;
+  }
+  .body-container-services {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .body-container-services-2 {
+    width: 100%;
+  }
+  .body-servicios-title-video-h3 {
+    text-align: center;
+  }
+  .body-container-services-2-container {
+    padding-left: 0px;
+    align-items: center;
+  }
+  .body-container-services-1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .body-container-services-1 img {
+    width: 45%;
+    border-radius: 50px;
+  }
+  .galerias-servicios {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 0 auto;
+    justify-content: center;
+  }
+  .galerias-servicios-title {
+    margin-left: 0px;
+  }
+  .container-list-services-fast {
+    padding: 30px 0;
+  }
+  .body-servicios-title-video-h3 {
+    margin-bottom: 10px;
+  }
+  .body-servicios-title-video-p {
+    padding-right: 0px;
+}
+.container-list-services-fast img {
+  margin-bottom: 15px;
+}
+.body-form {
+
+  grid-template-columns: auto;
+}
+ 
+.formulario-form {
+  margin-left: 20%;
+}
+#whats-app {
+  margin-left: 0px;
+}
+#img-aviso-form-bubble {
+  transform: translate(30px, -750px);
+}
+#img-fondo-bot{
+  display: none;
+}
+.form1-div, .textarea-div-div {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  align-items: center;
+}
+.body-form-container {
+  width: 100%;
+}
+.input-form {
+  margin-left: 0px;
+  width: 55%;
+  margin-bottom: 15px;
+}
+.formulario-form {
+  margin-left: 0px;
+  text-align: center;
+}
+.container-body-final {
+  background: #1b3071;
+  background-image: url(../img/fondo-body-index.png);
+  background-size: 0%;
+  }
+  .contactanos-form{
+   margin-top: 30px;
+  }
+  .contactanos-form, .subtitle-form, .label-form {
+    color: #fff;
+  }
+  #textarea {
+    width: 70%;
+  }
+  .monto-inversion {
+    margin-left: 0px;
+}
+.aviso-form {
+  display: flex;
+  margin-left: 0px;
+  justify-content: center;
+  
+}
+}
+
+
+
+@media screen and (max-width: 700px){
+
+  #textarea {
+    width: 70%;
+  }
+.servicio-body, .franquicia-body, .info-img {
+  width: 230px;
+}
+.servicio-body h4, .franquicia-body h4 {
+  font-size: 18px;
+}
+.servicio-body h2, .franquicia-body h2 {
+  font-size: 33px;
+}
+.info-img img {
+  width: 300px;
+  transform: translateY(-70px);
+}
+.separator2 {
+  height: 180px;
+}
+.title-responsabilidad-h2-1 {
+  font-size: 33px;
+  
+}
+.title-responsabilidad-h2-2 {
+  grid-column: 1;
+  font-size: 33px;
+  text-align: center;
+}
+.title-responsabilidad-h2-3 {
+  grid-column: 1;
+  font-size: 33px;
+  text-align: center;
+}
+
+.nosotros-container {
+  margin-top: 10px;
+}
+.body-container-services-2 {
+  width: 90%;
+  margin: auto;
+}
+  .body-servicios-title-video-p {
+    width: 100%;
+    padding-right: 0px !important;
+  }
+.nosotros-body-paragraph {
+  font-size: 17px;
+  
+}
+.body-container-services-1 img {
+  width: 80%;
+}
+  .body-servicios-title-video-p {
+    width: 80%;
+}
+.container-list-services-fast {
+  padding: 30px 30px;
+}
+.body-form {
+  width: 100%;
+}
+.contactanos-form {
+  font-size: 35px;
+  text-align: center;
+}
+.subtitle-form {
+  font-size: 16px;
+  text-align: center;
+}
+.formulario-form {
+  margin-left: 0;
+  padding: 0 40px;
+}
+.label-div {
+  width: 100px;
+  text-align: center;
+}
+
+
+#whats-app {
+  margin-left: 0px;
+  width: 300px;
+  padding-right: 0px;
+}
+.form-whatsapp{
+  text-align: center;
+}
+.separator4 {
+  height: 0px;
+}
+#img-fondo-bot{
+  display: none;
+}
+}

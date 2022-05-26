@@ -1,0 +1,348 @@
+
+.contactanos-form{
+    color: #4769a2;
+  font-size: 45px;
+  font-weight: 400;
+}
+.subtitle-form{
+  font-size: 21px;
+  color: #585B5B;;
+  font-weight: bold;
+}
+.formulario-form {
+margin-top: 30px;
+}
+.monto-inversion{
+display: flex;
+align-items: flex-start;
+margin-left: 5px;
+}
+.form1-div {
+  display: flex;
+  align-items: baseline;
+}
+.input-form {
+  margin-left: 15px;
+  height: 5px;
+  width: 200px;
+  margin-bottom: 15px;
+  color: #464646;
+  padding: 15px 15px;
+  font-size: 15px;
+}
+.input-form:focus, .input-form:active{
+  border: 1px solid red;
+  outline: none;
+}
+
+.label-div {
+  width: 70px;
+  text-align: right;
+}
+.label-form{
+    color: #484848;
+}
+.textarea-div-div {
+  display: flex;
+  margin-bottom: 30px;
+}
+#textarea {
+  margin-left: 15px;
+}
+#textarea {
+  width: 340px;
+  height: 90px;
+  resize: none;
+}
+
+.form-whatsapp img {
+    width: 480px;
+  }
+
+  .body-form-whatsapp img {
+    position: absolute;
+  }
+
+.body-form #img-fondo-bot{
+    position: absolute;
+    right: 0;
+  }
+.body-form-container{
+    position: relative;
+    z-index: 2;
+}
+.aviso-form {
+    display: flex;
+    align-items: baseline;
+    margin-left: 50px;
+  }
+  #check{
+      outline: none;
+  }
+  .aviso-form p {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #787878;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+
+  .body-form #img-fondo-bot {
+  position: absolute;
+  left: 613px;
+  top: 2316px;
+  width: 1569px;
+  height: 1290px;
+  margin-top: -480px;
+}
+#whats-app{
+    position: relative;
+    z-index: 52;
+    margin-left: 60px;
+}
+
+.formulario-form button {
+    background: #2e69a5;
+    color: white;
+    height: 55px;
+    width: 270px;
+    margin-left: 70px;
+    font-size: 17px;
+  }
+  .monto-inversion{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5px;
+}
+
+
+
+
+
+.body-container{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.descargar-la-app {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 42px;
+    font-weight: 400;
+    color: #4769a2;
+    margin-bottom: 10px;
+  }
+
+/* descargas */
+.caja-descargas img {
+    width: 160px;
+  }
+.img-caja2 {
+    text-align: center;
+  }
+.caja-descargas{
+    display: flex;
+    justify-content: center;
+}
+.img-contacto-whats {
+    margin-top: 50px;
+    width: 380px;
+    transform: translateX(100px);
+    position: relative;
+    z-index: 10;
+  }
+    .img-fondo {
+        position: absolute;
+        left: 0;
+        transform: translate(0, -75px);
+        height: 90%;
+        width: 70%;
+      }
+  .separador-final{
+      height: 100px;
+  }
+  .img-fondo-bouble {
+    position: absolute;
+    transform: translate(360px,380px);
+    width: 100px;
+  }
+  
+
+
+
+
+
+
+
+  @media screen and (max-width: 1465px){
+    .body-container{
+      grid-template-columns: 40% 45%;
+      background-color: #d9f0fc;
+    }
+    .img-fondo{
+      display: none;
+    }
+    .body-form{
+      grid-template-columns: 45% auto;
+      align-items: center;
+    }
+    .form-whatsapp {
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+    .title-form-whats{
+      color: #009ee1;
+      margin-top: 30px;
+      text-align: center;
+    }
+    .img-contacto-whats {
+      width: 100%;
+      transform: translateX(0px);
+  }
+  .img-caja2 {
+    text-align: end;
+  }
+  .caja-descargas {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+}
+  @media screen and (max-width: 1024px){
+    .body-form {
+      width: 100%;
+      justify-content: center;
+      display: flex;
+      flex-direction: column-reverse;
+
+    }
+    .title-form-whats-h4 {
+      margin: 10px auto;
+    }
+    
+  
+      .body-form-container {
+        text-align: center;
+        margin-top: 30px;
+      }
+      .contactanos-form{
+        margin-top: 30px;
+       }
+      
+       #textarea {
+         width: 70%;
+       }
+       .monto-inversion {
+         margin-left: 0px;
+     }
+     .formulario-form {
+    margin-left: 20%;
+  }
+  #whats-app {
+    margin-left: 0px;
+  }
+  #img-aviso-form-bubble {
+    transform: translate(30px, -750px);
+  }
+  #img-fondo-bot{
+    display: none;
+  }
+  .form1-div, .textarea-div-div {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    align-items: center;
+  }
+  .body-form-container {
+    width: 100%;
+  }
+  .input-form {
+    margin-left: 0px;
+    width: 55%;
+    margin-bottom: 15px;
+  }
+  .formulario-form {
+    margin-left: 0px;
+  }
+  
+  
+  
+  .formulario-form {
+    margin-left: 20%;
+  }
+  #whats-app {
+    margin-left: 0px;
+  }
+  #img-aviso-form-bubble {
+    transform: translate(30px, -750px);
+  }
+  #img-fondo-bot{
+    display: none;
+  }
+  .form1-div, .textarea-div-div {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    align-items: center;
+  }
+  .body-form-container {
+    width: 100%;
+  }
+  .input-form {
+    margin-left: 0px;
+    width: 55%;
+    margin-bottom: 15px;
+  }
+  .formulario-form {
+    margin-left: 0px;
+  }
+  .label-div {
+    text-align: center;
+  }
+  .aviso-form {
+    display: flex;
+    margin-left: 0px;
+    justify-content: center;
+    }
+    .formulario-form button {
+      margin-left: 0;
+    
+    }
+    .img-caja2 {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .body-container {
+      grid-template-columns: auto;
+    }
+    .img-contacto-whats {
+      width: 380px;
+    }
+  }
+  
+    @media screen and (max-width: 700px){
+      .subtitle-form {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .img-caja1 {
+      text-align: center;
+    }
+    .img-contacto-whats {
+      width: 90%;
+  } 
+  .img-telefono {
+    width: 70%;
+  }
+  .descargar-la-app {
+    font-size: 30px;
+ }
+ .caja-descargas img {
+  width: 120px;
+}
+.img-iphone.iphone {
+  margin-right: 20px;
+}
+}

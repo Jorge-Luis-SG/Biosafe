@@ -1,0 +1,236 @@
+.body-container-title {
+    width: 60%;
+    margin: auto;
+}
+.separator-1{
+    height: 80px;
+}
+.body-title-ventaja{
+    font-size: 42px;
+    font-weight: 400;
+    color: #4769a2;
+    margin-bottom: 15px;
+  }
+  .parrafo-title-ventaja{
+    font-size: 21px;
+    color: #666666;
+  }
+  .body-container-title span{
+    font-size: 21px;
+    color: #666666;  
+}
+
+  
+  .div-cajas-imgs-general {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:400px 550px auto;
+    color: #fff;
+    margin-top: 50px;
+}
+  .text-bold{
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .caja1 {
+        background-color: #009ee1;
+        font-size: 21px;
+        margin: auto;
+          margin-left: auto;
+        padding: 25px 25px 25px 20px;
+        height: 330px;
+        overflow-y: hidden;
+        margin-left: 26px;
+      }
+  .img-caja1 {
+    position: absolute;
+    transform: translate(250px ,-50px);
+  }
+  .caja2{
+    background-color: #adc80a;
+    font-size: 21px;
+    margin: auto;
+    padding: 25px 30px;
+    height: 330px;
+    overflow-y: hidden;
+}
+.caja3 h4 {
+    color: #666666;
+    font-size: 21px;
+    font-weight: 400;
+    position: absolute;
+    transform: translateY(-50px);
+  }
+  .caja3{
+      margin-left: 5px;
+  }
+.img-caja3 {
+    position: absolute;
+    width: 400px;
+    transform: translateY(10px);
+}
+  
+.img-3-body {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 70%;
+    margin: 20px auto 0 auto;
+  }
+.img-caja11-img {
+    width: 200px;
+  }
+  .img-3-boubles {
+    position: absolute;
+    margin-top: -40px;
+    left: 13%;
+    width: 150px;
+  }
+  .separator-body-end{
+        height: 200px;
+  }
+
+  /* @media screen and (max-width: 1510px){
+
+  .div-cajas-imgs-general {
+    width: 90%;
+    margin: auto;
+      margin-top: auto;
+    display: grid;
+    grid-template-columns: 400px 550px ;
+    justify-content: center;
+  }
+  .separador-medium{
+    height: 800px;
+  }
+  .caja3 {
+    margin-left: 0;
+    margin-top: 40px;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+  }
+  .img-caja3 {
+    position: absolute;
+    width: 400px;
+    transform: translateY(70px);
+  }
+  .img-3-boubles {
+    margin-top: -300px;
+}
+} */
+.div-cajas-imgs-general {
+  grid-template-columns: 410px 550px auto;
+}
+@media screen and (max-width: 1620px){
+  .div-cajas-imgs-general {
+    width: 90%;
+}
+.div-cajas-imgs-general {
+  grid-template-columns: 420px 550px auto;
+}
+}
+  @media screen and (max-width: 1465px){
+    .div-cajas-imgs-general {
+      grid-template-columns: 400px 550px;
+      justify-content: center;
+    }
+    .caja3 {
+      margin-left: 0px;
+      height: 700px;
+      margin-top: 40px;
+      grid-column: 1/3;
+      display: flex;
+      justify-content: center;
+    }
+    .img-caja3 {
+      transform: translateY(60px);
+}
+.img-3-boubles {
+  margin-top: -420px;
+}
+.img-3-body {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+.caja2 {
+  height: 320px;
+  padding: 30px 30px 30px 15px;
+  
+}
+.div-cajas-imgs-general {
+  grid-template-columns: 420px 550px auto;
+}
+}
+  @media screen and (max-width: 1024px){
+    .div-cajas-imgs-general {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .caja2 {
+      height: 100%;
+      width: 400px;
+      padding: 30px 30px 30px 15px;
+      
+    }
+    .caja1 {
+      margin: auto;
+      margin-bottom: 30px;
+      height: 300px;
+      font-size: 19px;
+    }
+    .text-bold {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .caja2, .parrafo-title-ventaja{
+      font-size: 19px;
+    }
+    .body-title-ventaja {
+      font-size: 35px;
+  }
+}
+  
+  
+  
+    @media screen and (max-width: 700px){
+      .caja1, .caja2, .parrafo-title-ventaja{
+        font-size: 18px;
+      }
+      .caja2 {
+        padding: 25px 20px;
+        height: 100%;
+        width: 80%;
+    }
+    .img-caja1 {
+      transform: translate(0 , 0px);
+      right: 0;
+    }
+    .caja1 {
+      height: 100%;
+      width: 80%;
+      text-align: center;
+  }
+  .caja3 h4{
+    font-size: 20px;
+  }
+  .img-caja3 {
+    width: 350px;
+  }
+  .img-3-boubles{
+    display: none;
+  }
+  .img-3-body {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .img-caja11-img {
+    width: 280px;
+  }
+}
+

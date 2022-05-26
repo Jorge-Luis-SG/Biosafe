@@ -1,0 +1,188 @@
+.container-body {
+    width: 60%;
+    margin: auto;
+  }
+.separator{
+    height: 65px;
+}
+.container-body span{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.titulo-servicios{
+    font-size: 42px;
+    font-weight: 400;
+    color: #4769a2;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 3000;
+}
+.parrafo-body {
+  font-size: 20px;
+  color: #666666;
+  position: relative;
+  z-index: 3000;
+  width: 502px;
+}
+.icons-container {
+    display: grid;
+    grid-template-columns: 150px auto;
+    margin-top: 35px;
+    justify-content: space-around;
+    position: relative;
+    z-index: 3000;
+  }
+  .container-2-icons {
+    margin-top: 30px;
+  }
+  .icons-div-2 {
+    display: flex;
+    align-items: center;
+  }
+  .img-div-2 {
+    width: 120px;
+  }
+  .title-img-div-2 {
+    font-size: 30px;
+    color: #666668;
+    margin-left: 28px;
+  }
+  
+
+  .footer-boubles {
+    position: absolute;
+    z-index: 500;
+    right: 260px;
+    margin-top: -100px;
+  }
+  .body-boubles-end {
+    position: absolute;
+    z-index: 500;
+    left: 320px;
+    margin-top: -350px;
+  }
+  .separator-body-end {
+    height: 100px;
+  }
+  .container-100 {
+    background-image: url(../img/servicios/vector-fondo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 75% 100%;
+  }
+  .img-bouble2 {
+    position: absolute;
+    right: 450px;
+    z-index: 2999;
+    width: 180px;
+    margin-top: -30px;
+  }
+  .body-form-bottom {
+    margin-top: -20px;
+  }
+  
+
+  .title-img-div-2.\31 {
+    width: 510px;
+  }
+  .title-img-div-2.\32 {
+    width: 528px;
+  }
+  .title-img-div-2.\33 {
+    width: 460px;
+  }
+  .title-img-div-2.\34 {
+    width: 540px;
+  }
+
+  @media screen and (max-width: 1465px){
+  .container-body {
+    width: 75%;
+    margin: auto;
+  }
+  .title-img-div-2 {
+    font-size: 26px;
+}
+.img-bouble2 {
+  right: 50px;
+  width: 160px;
+}
+}
+
+@media screen and (max-width: 1024px){
+  .icons-container {
+    grid-template-columns: auto;
+  }
+  .container-1-icons {
+    text-align: center;
+  }
+  .title-img-div-2 {
+    font-size: 21px;
+  }
+  .img-div-2 {
+    width: 80px;
+  }
+  .icons-div-2 {
+    margin-bottom: 30px;
+  }
+  .img-bouble2 {
+    right: 0px;
+    width: 130px;
+  }
+  .parrafo-body {
+    font-size: 18px;
+
+  }
+  .body-boubles-end {
+    left: 0px;
+    width: 90px;
+  }
+  .titulo-servicios {
+    font-size: 35px;
+}
+.title-img-div-2 {
+  font-size: 22px;
+}
+}
+
+  @media screen and (max-width: 700px){
+    .icons-div-2 {
+      flex-direction: column;
+    }
+    .title-img-div-2 {
+      font-size: 17px;
+      margin-left: 0px;
+      text-align: center;
+      margin-top: 10px;
+  }
+  .container-100 {
+    background-image: url(../img/servicios/vector-fondo.png);
+    background-size: 0%;
+    background-color: #9fd9f7;
+}
+.parrafo-body {
+  width: 299px;
+  text-align: center;
+}
+.titulo-servicios {
+  text-align: center;
+  margin-top: 30px;
+
+}
+.img-bouble2 {
+  width: 70px;
+}
+.caja-text {
+  display: flex;
+  justify-content: center;
+}
+.title-img-div-2 {
+  font-size: 21px;
+  width: 100%;
+
+}
+.title-img-div-2.\31, .title-img-div-2.\32, .title-img-div-2.\33, .title-img-div-2.\34  {
+  width: 100%;
+}
+
+}

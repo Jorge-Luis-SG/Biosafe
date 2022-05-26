@@ -1,0 +1,453 @@
+.header-mid{
+  background-color: #fff;
+    height: 80px;
+    border-radius: 35px 0px 0px 0px;
+    overflow-y: hidden;
+    width: 100%;
+  }
+  .contenedor-header-mid{
+    background-color: #1675ac;
+  }
+.header-mid-container{
+    display: grid;
+    grid-template-columns: 33% auto;
+}
+.container-img-mid {
+  display: flex;
+  justify-content: end;
+  height: 80px;
+  width: 60%;
+  }
+  .caja2-header-mid-spaciador {
+    width: 30%;
+  }
+  #img-header-mid {
+    position: absolute;
+    width: 315px;
+    z-index: 3000;
+  }
+  .contenedor-header-mid {
+    margin-left: 0px;
+  }
+.header-mid-container #img-header-mid {
+    width: 306px;
+    position: absolute;
+    margin-top: -20px;
+  }
+  .header-mid-container-title p {
+    color: #fff;
+    margin-top: 30px;
+    text-align: justify;
+    width: 400px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+.header-mid-container-title {
+    margin-bottom: -90px;
+  }
+  .separator {
+    height: 80px;
+  }
+.container-body{
+    width: 65%;
+    margin: auto;
+}
+#solicita-body-h2 {
+    font-size: 45px;
+    font-weight: 500;
+    color: #2e69a5;
+  }
+  .vector-img {
+    text-align: center;
+  }
+  .vector-img img{
+    width: 80%;
+  }
+
+
+.separator2{
+    height: 155px;
+}
+
+  .container-body-final {
+    background: #f1f1f1;
+  }
+.body-form{
+      width: 90%;
+      margin: 0 0 0 auto;
+      display: grid;
+      grid-template-columns: 30% auto;
+}
+.contactanos-form{
+    color:  #2e6aa8;
+    font-size: 45px;
+    font-weight: 400;
+}
+.subtitle-form{
+    font-size: 17px;
+    color: #585B5B;;
+    font-weight: bold;
+}
+.formulario-form {
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+.form1-div {
+    display: flex;
+    align-items: baseline;
+}
+.monto-inversion{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5px;
+}
+
+.input-form {
+    margin-left: 15px;
+    height: 5px;
+    width: 200px;
+    margin-bottom: 15px;
+    color: #464646;
+    padding: 15px 15px;
+    font-size: 15px;
+  }
+  .input-form:focus, .input-form:active{
+    outline: none;
+  }
+
+.label-div {
+    width: 70px;
+    text-align: right;
+  }
+  .label-form{
+      color: #484848;
+  }
+.textarea-div-div {
+    display: flex;
+    margin-bottom: 30px;
+}
+#textarea {
+    margin-left: 15px;
+  }
+  #textarea {
+    width: 340px;
+    height: 90px;
+    resize: none;
+  }
+
+
+.body-form-container{
+    position: relative;
+    z-index: 2;
+}
+.aviso-form {
+    display: flex;
+    align-items: baseline;
+    margin-left: 50px;
+  }
+  #check{
+      outline: none;
+  }
+  .aviso-form p {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #787878;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+.formulario-form button {
+    background: #2e69a5;
+    color: white;
+    height: 55px;
+    width: 270px;
+    margin-left: 70px;
+    font-size: 17px;
+  }
+
+
+  #img-aviso-form-bubble {
+    position: absolute;
+    margin-top: -150px;
+    left: 14vw;
+  }
+  .img-whats-f {
+    position: relative;
+    z-index: 200;
+  }
+  .body-form-whatsapp {
+    display: flex;
+    align-items: center;
+}
+.form-whatsapp .img-whats-f {
+    width: 880px;
+  }
+  .form-whatsapp {
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+
+  .title-form-whats {
+    position: relative;
+    font-size: 30px;
+    color: #fff;
+    z-index: 12;
+  }
+  .title-form-whats-h4 {
+    position: relative;
+    z-index: 13;
+    font-size: 22px;
+    color: white;
+    background-color: #009ee1;
+    font-weight: 400;
+    width: 378px;
+    padding: 2px 15px;
+    margin-top: 5px;
+  }
+
+  
+  .img-boubble-top {
+    position: absolute;
+    z-index: 3;
+  }
+
+  .img-boubble-top {
+    position: absolute;
+    z-index: 3;
+    right: 300px;
+    margin-top: -230px;
+  }
+  .vector-img-separada{
+    display: none;
+  }
+  .div-pasos-separados{
+    display: none;
+  }
+  .body-form-bottom {
+    margin-top: -20px;
+  }
+  .container-body-final {
+    background: #f1f1f1;
+    background-image: url(../img/fondo-body-index.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 77% auto;    
+  }
+  @media screen and (max-width: 1465px){
+    .vector-img img{
+      width: 100%;
+      
+    }
+    .img-whats-f{
+      display: none;
+    }
+    .div-pasos-separados{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .div-pasos-separados img {
+      width: 300px;
+    }
+    .body-form{
+      grid-template-columns: 45% auto;
+      align-items: center;
+    }
+    .form-whatsapp {
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+    .title-form-whats{
+      color: #009ee1;
+      margin-top: 30px;
+      text-align: center;
+    }
+    .container-body-final {
+      background: #f1f1f1;
+      background-image: url(../img/fondo-body-index.png);
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: 80% 100%;
+    }
+    .img-boubble-bottom{
+      position: absolute;
+      z-index: 1;
+    }
+    
+    .img-boubble-bottom {
+      position: absolute;
+      z-index: 1;
+      right: 170px;
+      width: 80px;
+    }
+    .img-boubble-top {
+      position: absolute;
+      z-index: 3;
+      right: 170px;
+      margin-top: -82px;
+      width: 80px;
+    }
+    .container-body {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 1024px){
+  .vector-img-separada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vector-img img{
+    display: none;
+  }
+  #solicita-body-h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .container-body {
+    width: 90%;
+  }
+  .container-body-final {
+    background: #1b3071;
+    background-size: 0%;
+  }
+  .body-form {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .title-form-whats-h4 {
+    margin: 10px auto;
+  }
+  
+
+    .body-form-container {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .contactanos-form{
+      margin-top: 30px;
+     }
+     .contactanos-form, .subtitle-form, .label-form {
+       color: #fff;
+     }
+     #textarea {
+       width: 70%;
+     }
+     .monto-inversion {
+       margin-left: 0px;
+   }
+   .formulario-form {
+  margin-left: 20%;
+}
+#whats-app {
+  margin-left: 0px;
+}
+#img-aviso-form-bubble {
+  transform: translate(30px, -750px);
+}
+#img-fondo-bot{
+  display: none;
+}
+.form1-div, .textarea-div-div {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  align-items: center;
+}
+.body-form-container {
+  width: 100%;
+}
+.input-form {
+  margin-left: 0px;
+  width: 55%;
+  margin-bottom: 15px;
+}
+.formulario-form {
+  margin-left: 0px;
+}
+
+
+
+.formulario-form {
+  margin-left: 20%;
+}
+#whats-app {
+  margin-left: 0px;
+}
+#img-aviso-form-bubble {
+  transform: translate(30px, -750px);
+}
+#img-fondo-bot{
+  display: none;
+}
+.form1-div, .textarea-div-div {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  align-items: center;
+}
+.body-form-container {
+  width: 100%;
+}
+.input-form {
+  margin-left: 0px;
+  width: 55%;
+  margin-bottom: 15px;
+}
+.formulario-form {
+  margin-left: 0px;
+}
+.label-div {
+  text-align: center;
+}
+.aviso-form {
+  display: flex;
+  margin-left: 0px;
+  justify-content: center;
+  }
+  .formulario-form button {
+    margin-left: 0;
+  
+  }
+  .vector-img-separada img {
+    width: 400px;
+  }
+  .img-aviso-form-bubble{
+    display: none;
+  }
+
+  .header-mid-container-title p {
+    color: #fff;
+    margin-top: 30px;
+    text-align-last: inherit;
+    width: 85%;
+}
+}
+
+
+  @media screen and (max-width: 860px){
+    .header-bottom {
+      width: 100%;
+      display: flex;
+      margin-bottom: -3px;
+      flex-direction: column;
+    }
+    #header-mid-container-1 {
+      width: 100%;
+    }
+    #header-mid-container-2 {
+      width: 100%;
+    }
+    #header-mid-container-2 img {
+      width: 100%;
+    }
+    .header-mid-container-title {
+      margin-bottom: -90px;
+    }
+  
+  }
+  @media screen and (max-width: 700px){
+  
+  }
